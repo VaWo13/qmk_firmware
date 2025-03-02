@@ -27,7 +27,7 @@ jobs:
     - name: Build keyboards
       run: python3 bin/build_all.py
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: Pre-Compiled Firmware
         path: '*.bin'
