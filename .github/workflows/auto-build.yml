@@ -1,7 +1,7 @@
 name: Compile Firmware
 
 on:
-  push:
+  workflow_dispatch:
     branches:
     - sn32
     - sn32_openrgb
